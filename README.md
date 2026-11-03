@@ -14,7 +14,7 @@ The focus goes beyond writing code: it is about understanding the reasoning behi
 
 ## Projects
 
-### [Organica — Personal Task Manager](./projects/organica/README.md)
+### [Organica — Personal Task Manager]
 
 A personal task management application developed as a learning project.
 
