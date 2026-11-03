@@ -1,188 +1,135 @@
-\# Organica
+# Organica
 
-\### Personal Task Manager
+### Personal Task Manager
 
+**Organize naturally. Focus intentionally.**
 
+---
 
-> Organize naturally. Focus intentionally.
+Organica is a personal task management application designed to bring clarity to everyday activities, priorities and commitments.
 
+Built around simplicity, flexibility and thoughtful design, its goal is to make personal organization feel natural — without adding unnecessary complexity.
 
+> **Project focus:** Software Engineering · Software Architecture · Human-Centered Design
 
-\## 1. Project Overview
+---
 
+## Contents
 
+- [Overview](#overview)
+- [Vision & Philosophy](#vision--philosophy)
+- [Core Features](#core-features)
+- [Application Structure](#application-structure)
+- [Task Management](#task-management)
+- [Development Roadmap](#development-roadmap)
+- [Project Status](#project-status)
 
-Organica is a personal task management application designed to help people organize their activities, manage priorities and deadlines, and maintain a clear overview of their commitments.
+---
 
+## Overview
 
+Organica starts from a personal need: having a clear and intuitive space to organize activities, manage deadlines and keep track of personal goals.
 
-The project starts from a personal need but aims to become a flexible and accessible tool that anyone can use to manage their daily activities and longer-term goals.
+Although initially conceived as a personal tool, the project aims to evolve into a flexible and accessible application that anyone can use.
 
+Beyond its functionality, Organica is also a practical software engineering project, developed with attention to:
 
+- Maintainability
+- Thoughtful software design
+- Clear architecture
+- User-centered principles
 
-Organica is being developed as a practical software engineering project, with a focus on thoughtful design, maintainability and a user-centered approach.
+## Vision & Philosophy
 
+### Organize without adding complexity.
 
+Organica aims to provide a straightforward environment where users can manage their activities without being overwhelmed by unnecessary features or complicated workflows.
 
-\## 2. Vision \& Philosophy
+Its design is guided by three principles:
 
-
-
-\*\*Organize without adding complexity.\*\*
-
-
-
-Organica aims to provide a simple and intuitive environment where users can manage their activities without being overwhelmed by unnecessary features or complicated workflows.
-
-
-
-Its design philosophy is based on three principles:
-
-
-
-\- \*\*Simplicity:\*\* keep task management clear and straightforward.
-
-\- \*\*Flexibility:\*\* allow users to organize their activities according to their own needs.
-
-\- \*\*Clarity:\*\* make priorities, deadlines and progress easy to understand.
-
-
+| Principle | Purpose |
+|:--|:--|
+| **Simplicity** | Keep task management clear and straightforward. |
+| **Flexibility** | Adapt to different organizational needs. |
+| **Clarity** | Make priorities, deadlines and progress easy to understand. |
 
 The goal is not simply to manage tasks, but to make personal organization more natural and intentional.
 
+## Core Features
 
+The initial version is expected to include:
 
-\## 3. Core Features
+- Create, edit and delete tasks.
+- Add titles and descriptions.
+- Set priorities and deadlines.
+- Track progress through task statuses.
+- Organize tasks into optional projects.
+- Filter and sort activities.
+- View relevant activities and upcoming deadlines in a general overview.
 
+## Application Structure
 
+Organica is organized around three main sections, each offering a different perspective on the same set of activities.
 
-The initial version of Organica is expected to include:
+### 01 — Overview
 
+A general dashboard highlighting relevant activities, upcoming deadlines, priorities and overall progress.
 
+### 02 — My Tasks
 
-\- Create, edit and delete tasks.
+A complete view of all personal tasks, including both independent activities and tasks associated with projects.
 
-\- Add titles and descriptions to tasks.
+Users will be able to filter and sort tasks according to their needs.
 
-\- Set priorities and deadlines.
+### 03 — Projects
 
-\- Track task progress through different statuses.
+A dedicated space for organizing activities into projects.
 
-\- Organize tasks into optional projects.
+Each project has its own view, displaying the tasks associated with it.
 
-\- Filter and sort tasks.
+**Projects are optional.** Tasks can exist independently without belonging to any project.
 
-\- Access a general overview of activities and upcoming deadlines.
+## Task Management
 
+Each task is built around a small set of essential attributes:
 
+| Attribute | Description |
+|:--|:--|
+| **Title** | A short description of the activity. |
+| **Description** | Additional information about the task. |
+| **Priority** | An indication of its importance. |
+| **Deadline** | The expected completion date. |
+| **Status** | The current state of the task. |
+| **Project** | An optional association with a project. |
 
-\## 4. Application Structure
+### Task Statuses
 
+The initial workflow includes three states:
 
+`To Do` → `In Progress` → `Completed`
 
-The application will be organized around three main sections:
+This structure provides enough flexibility for everyday task management while keeping the workflow straightforward.
 
+## Development Roadmap
 
+Development will follow an incremental approach, moving from initial analysis to implementation and refinement.
 
-\### Overview
-
-A general dashboard providing an overview of relevant activities, upcoming deadlines, priorities and overall progress.
-
-
-
-\### My Tasks
-
-A complete list of personal tasks, including both independent tasks and tasks associated with projects. Users will be able to filter and sort their activities.
-
-
-
-\### Projects
-
-A section containing a list of projects. Each project will have its own dedicated view, displaying the tasks associated with it.
-
-
-
-Projects are optional: tasks can exist independently without belonging to any project.
-
-
-
-\## 5. Task Management
-
-
-
-Each task will have a set of basic attributes:
-
-
-
-\- \*\*Title:\*\* a short description of the activity.
-
-\- \*\*Description:\*\* additional information about the task.
-
-\- \*\*Priority:\*\* an indication of its importance.
-
-\- \*\*Deadline:\*\* the expected completion date.
-
-\- \*\*Status:\*\* the current state of the task.
-
-\- \*\*Project:\*\* an optional association with a project.
-
-
-
-The initial task statuses will be:
-
-
-
-\- `To Do`
-
-\- `In Progress`
-
-\- `Completed`
-
-
-
-This structure is intended to provide enough flexibility for everyday task management while keeping the system straightforward.
-
-
-
-\## 6. Development Roadmap
-
-
-
-The project will evolve through incremental development phases:
-
-
-
-1\. Requirements analysis and definition.
-
-2\. Software design and architectural planning.
-
-3\. Database design and implementation.
-
-4\. Core application development.
-
-5\. Testing, refinement and documentation.
-
-
+| Phase | Focus |
+|:--:|:--|
+| **01** | Requirements analysis and definition |
+| **02** | Software design and architectural planning |
+| **03** | Database design and implementation |
+| **04** | Core application development |
+| **05** | Testing, refinement and documentation |
 
 The roadmap may evolve as the project progresses and new requirements emerge.
 
+## Project Status
 
-
-\## 7. Project Status
-
-
-
-\*\*Current phase:\*\* Planning and requirements analysis.
-
-
+**Current phase:** Planning & Requirements Analysis
 
 Organica is currently in its initial design stage. Requirements, application structure and architectural decisions will be defined before implementation begins.
 
+---
 
-
-\---
-
-
-
-\*Organica is an ongoing learning and development project focused on software engineering, architecture and human-centered technology.\*
-
+<sub>An ongoing learning and development project exploring software engineering, architecture and human-centered technology.</sub>
