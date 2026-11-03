@@ -1,26 +1,42 @@
-# SoftwareArchitecture 
+# SoftwareArchitecture
 
-A personal learning repository focused on software engineering, software architecture and system design.
+### Exploring Software Engineering & System Design
+
+A personal learning repository dedicated to understanding how software systems are designed, structured and developed.
+
+---
 
 ## Purpose
 
-This repository documents my journey toward understanding how well-structured software systems are designed, developed and maintained.
+This repository documents a learning journey through software engineering, software architecture and system design.
 
-The goal is not simply to write code, but to understand the reasoning behind technical decisions.
+The focus goes beyond writing code: it is about understanding the reasoning behind technical decisions, exploring different approaches and learning how to build well-structured, maintainable software.
 
 ## Projects
 
-### Personal Task Manager
+### [Organica — Personal Task Manager](./projects/organica/README.md)
 
-A task management application developed as a learning project to explore software design, architecture, database modeling and software engineering principles.
+A personal task management application developed as a learning project.
 
-*Status: Planning*
+Through Organica, I aim to explore:
 
-## Topics
+- Requirements engineering
+- Software design and architecture
+- Database modeling
+- Software engineering principles
+- Testing and maintainability
 
-- Software engineering
-- Software architecture
-- System design
-- Database design
-- Design principles and patterns
-- Software quality and testing
+<sub>Status: Planning & Requirements Analysis</sub>
+
+## Areas of Exploration
+
+- Software Engineering
+- Software Architecture
+- System Design
+- Database Design
+- Design Principles & Patterns
+- Software Quality & Testing
+
+---
+
+<sub>A space for learning, experimentation and documenting the process of building better software.</sub>
